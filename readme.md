@@ -1,7 +1,7 @@
 <center><h1 align="center">MLZoomcamp 2021 capstone project.</h1></center>
 
 <center><h2 align="center">1. Description of the problem</h2></center>
-<p>Assume that we have tomato seeds online shop. Client wants to buy the seeds of some kind of tomato, and he does not know the exact name of cultivar. But he has the pictures of the tomato wanted. So there is a need for application to classify that images and get name of tomato cultivar.
+<p>Assume that we have tomato seeds online shop. Client wants to buy the seeds of some kind of tomato, and he does not know the exact name of the cultivar. But he has the pictures of the wanted tomato. So there is a need for application to classify that images and get name of the tomato cultivar.
 
 <center><h2 align="center">2. Dataset</h2></center>
 <a href="https://www.kaggle.com/olgabelitskaya/tomato-cultivars"> Dataset used is from Kaggle "Tomato Cultivars". It contains 776 color images of 15 tomato cultivars.</p>  
@@ -36,7 +36,9 @@ Given url of user's image, application returns dictionary with class probabiliti
 8) `readme.md`.
 
 <center><h2 align="center">5. How to run the project</h2></center>
+
 This project supposed to be deployed on AWS Lambda, but this did not happen :(
+
 The validity of the project can be checked in the following way:
 * copy (clone) this repository to your local PC to some directory,
 * change path to that directory with command line:
